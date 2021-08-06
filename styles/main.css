@@ -1,11 +1,9 @@
-div {
-    border: 1px solid #000000;
-}
-
 a {
-    color: green;
-}
-
-div a {
     color: red;
+}
+.bio-box {
+    border: 1px solid black;
+}
+.bio-box a {
+    color: green;
 }
