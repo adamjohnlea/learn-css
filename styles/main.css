@@ -1,19 +1,47 @@
 /*GLOBAL STYLES*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
 a {
-    color: red;
+    color: #ff0000;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 7vw;
+}
+
+/*HERO STYLES*/
+.full-hero {
+    background-color: #c7dbfc ;
+    height: 50vh;
 }
 
 /*SOCIAL STYLES*/
 .social-link {
-    color: blue;
+    padding: 8px;
+    background: rgba(45, 0, 255, 0.25);
+    color: #1c00ff;
 }
 
 /*BIO STYLES*/
+.bio-wrapper {
+    /*width: 500px;*/
+}
+
 .bio-box {
-    border: 1px solid black;
+    border: 1px solid #000000;
+    width: 50%; /*50% of bio-wrapper*/
+}
+
+.bio-box h3 {
+    font-size: 1.5rem;
 }
 
 .bio-copy a {
-    color: green;
+    color: #008300;
 }
 
