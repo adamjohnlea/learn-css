@@ -1,9 +1,19 @@
+/*GLOBAL STYLES*/
 a {
     color: red;
 }
+
+/*SOCIAL STYLES*/
+.social-link {
+    color: blue;
+}
+
+/*BIO STYLES*/
 .bio-box {
     border: 1px solid black;
 }
-.bio-box a {
+
+.bio-copy a {
     color: green;
 }
+
