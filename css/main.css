@@ -192,7 +192,7 @@ h2 {
 }
 
 .hero-home {
-    background-image: url("../images/shark.jpg");
+    background-image: url("/images/shark.jpg");
     background-position: center top;
 }
 
