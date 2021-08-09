@@ -689,7 +689,10 @@ h2 ~ p {
 
     /* HEADER STYLES */
     .header-nav {
-        padding: 2vh 1em 0 0;
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+        transition: all 0.5s ease-in-out;
     }
     .header-nav > li {
         margin-left: 0.25em;
@@ -701,6 +704,26 @@ h2 ~ p {
 
     .header-logo {
         left: auto;
+    }
+
+    /*MOBILE MENU*/
+    .mobile-menu-check,
+    .show-mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-check:checked ~ .header-nav {
+        max-height: 1000px;
+    }
+
+    .show-mobile-menu {
+        display: block;
+        float: right;
+        font-weight: bold;
+        margin-top: 1.5vh;
+        padding: 1.5rem;
+        position: relative;
+        text-transform: uppercase;
     }
 
     /* HOME STYLES */
