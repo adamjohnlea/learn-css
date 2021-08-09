@@ -146,8 +146,17 @@ h2 ~ p {
     padding-left: 1em;
 }
 
-.header-nav a {
+.header-nav a,
+.drop-trigger {
     color: #ffffff;
+}
+
+.nav-links a,
+.drop-trigger {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header-nav > li:first-child a {
@@ -640,19 +649,6 @@ h2 ~ p {
     }
     .header-nav > li {
         margin-left: 0.25em;
-    }
-
-    .header-nav a,
-    .drop-trigger {
-        color: #ffffff;
-    }
-
-    .nav-links a,
-    .drop-trigger {
-        font-size: 0.8rem;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: lowercase;
     }
 
     .header-nav > li ~ li {
