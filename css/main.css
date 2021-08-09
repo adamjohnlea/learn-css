@@ -689,6 +689,12 @@ h2 ~ p {
     padding-top: 2rem;
 }
 
+/*MOBILE MENU*/
+.mobile-menu-check,
+.show-mobile-menu {
+    display: none;
+}
+
 /*MEDIA QUERY STYLES*/
 @media (max-width: 800px) {
     html {
