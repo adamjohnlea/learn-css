@@ -221,6 +221,7 @@ h2 ~ p {
 }
 .drop-menu li {
     background-color: #fff;
+    color: #000000;
 }
 .drop-menu a {
     color: #333;
